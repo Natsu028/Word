@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Words</string>
+    
+    <string name="study_title">study</string>
+    <string name="study_content">She study English everyday.Do you study everyday?</string>
+    <string name="study_meaning">勉強する</string>
+
+    <string name="walk_title">walk</string>
+    <string name="walk_content">Walking alone is my hobby.</string>
+    <string name="walk_meaning">歩く</string>
+
+    <string name="surprise_title">be surprise at</string>
+    <string name="surprise_content">He is surprised to see a ghost.</string>
+    <string name="surprise_meaning">驚く</string>
+
+    <string name="tokyo_title">TOKYO 2020</string>
+    <string name="tokyo_content">I am looking forward to TOKYO 2020.</string>
+    <string name="tokyo_meaning">東京オリンピック2020</string>
+
+    <string name="apple_title">apple</string>
+    <string name="apple_content">I use Apple products.</string>
+    <string name="apple_meaning">アップル（製品）</string>
+</resources>
