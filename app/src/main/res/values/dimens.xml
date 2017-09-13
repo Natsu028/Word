@@ -5,6 +5,8 @@
     <dimen name="acitivity_vertical_margin">16dp</dimen>
     
     <dimen name="card_item_margin">5dp</dimen>
+    <dimen name="card_item_marginLeft">16dp</dimen>
+    <dimen name="card_item_marginRight">16dp</dimen>
     <dimen name="card_item_height">96dp</dimen>
     <dimen name="card_item_title_margin">4dp</dimen>
     <dimen name="card_item_favorite_size">28dp</dimen>

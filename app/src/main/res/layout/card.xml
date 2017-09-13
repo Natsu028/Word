@@ -7,7 +7,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/card_item_height"
-        android:layout_margin="@dimen/card_item_margin"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="@dimen/card_item_marginRight"
+        android:layout_marginLeft="@dimen/card_item_marginLeft"
         android:orientation="horizontal">
 
         <ImageView
@@ -31,6 +34,7 @@
 
                     android:id="@+id/title_textview"
                     android:layout_width="0dp"
+                    android:textColor="#2E7D32"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal|top"
                     android:layout_weight="4"
@@ -40,6 +44,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:textColor="#2E7D32"
                     android:id="@+id/like_textview"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
@@ -52,7 +57,6 @@
                     android:textStyle="italic" />
 
                 <ImageView
-
                     android:id="@+id/like_button"
                     android:layout_width="@dimen/card_item_favorite_size"
                     android:layout_height="@dimen/card_item_favorite_size"
@@ -61,6 +65,7 @@
             </LinearLayout>
 
             <TextView
+                android:textColor="#2E7D32"
                 android:id="@+id/content"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
