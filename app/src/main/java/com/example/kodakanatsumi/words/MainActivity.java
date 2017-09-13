@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity {
         mCards.add(new Card(R.drawable.tokyo, getString(R.string.tokyo_title), getString(R.string.tokyo_content),
                 getString(R.string.tokyo_meaning)));
 
-        mCards.add(new Card(R.drawable.apple, "apple", "I use Apple products.", "リンゴ（製品）"));
+        mCards.add(new Card(R.drawable.apple, getString(R.string.apple_title), getString(R.string.apple_content),
+                getString(R.string.apple_meaning)));
 
         mCardAdapter = new CardAdapter(this, R.layout.card, mCards);
         mListView.setAdapter(mCardAdapter);
